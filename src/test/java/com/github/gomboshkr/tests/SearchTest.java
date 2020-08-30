@@ -16,7 +16,7 @@ public class SearchTest extends BaseTest {
         String testWord = FAIRY.textProducer().word();
         googleSearchPage.searchResult(testWord);
         assertThat(resultSearchPage.searchResult())
-                .as("Title result work should be the same with entered word")
+                .as("Title result words should be the same with entered words")
                 .isEqualTo(testWord);
     }
 }

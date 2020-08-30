@@ -18,10 +18,6 @@ public class GoogleSearchPage extends AbstractServicePage {
             "Search field on the Google page",
             By.xpath(".//div[@class='RNNXgb']//input"),
             true);
-    private static final PageElement Search_Button = new PageElement(
-            "Search field on the Google page",
-            By.xpath(".//div[@class='RNNXgb']//input"),
-            true);
 
     public GoogleSearchPage(final WebDriver driver) {
         super(driver);

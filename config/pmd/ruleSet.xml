@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ruleset name="Tomash Gombosh api project rule set"
+<ruleset name="Kristian Gombosh api project rule set"
          xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 http://pmd.sourceforge.net/ruleset_2_0_0.xsd">
-    <description>Tomash Gombosh api project rule set</description>
+    <description>Kristian Gombosh api project rule set</description>
 
     <rule ref="category/java/bestpractices.xml">
         <exclude name="ArrayIsStoredDirectly"/>

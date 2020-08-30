@@ -15,11 +15,6 @@ public class ResultSearchPage extends AbstractServicePage {
             "Title in Search Result Page",
             By.xpath("(//title)[1]"),
             true);
-    private static final PageElement SIGN_OUT_BUTTON = new PageElement(
-            "Sign out button",
-            By.cssSelector(".logout"),
-            true);
-
     public ResultSearchPage(final WebDriver driver) {
         super(driver);
     }
